@@ -42,7 +42,7 @@ we need to fit the output above to the real C environment and we need as well to
 ``` bash 
 env - gdb runner 
 ``` 
-and then we need to type the following commands 
+and then we need to execute the following commands 
 ```gdb
 unset env LINES 
 unset env COLUMNS 
