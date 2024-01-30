@@ -14,7 +14,7 @@ secret_tokens: File containing sensitive information
 As a company staff member, you are using a web management service with a private token for authentication. In case of token loss, the IT team has provided a tool for token recovery, accessible through SSH. Your task is to leverage the provided script to recover the admin authentication token.
 
 ## Solution
-So this is the [exploit]{exploit.sh} that we are going to use in this challenge
+So this is the [exploit](exploit.sh) that we are going to use in this challenge
 
 Steps of the exploit: 
 1- Creates the ~/tmp directory if it doesn't exist.
