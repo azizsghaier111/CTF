@@ -27,11 +27,11 @@ Alternatively, if the steps fail, the source code is provided in the directory.
 after obtaining the source codes you need to copy and paste them in you local machine to compile them manually and see what you can do with them to hack the backland 
 
 ## Step 2: Compilation and Analysis
-Firstly, create a folder in the same directory as "server.c" and "server_slave.c" to fulfill a requirement.
+Firstly, create a folder "chroot" in the same directory as "server.c" and "server_slave.c" to fulfill one requirement.
 
 For this challenge, it's recommended to download gdb peda as it's useful here.
 
-Start by checking the port where the server will listen. In my example, I found the port to be 38363.
+Start by checking the port in the server.c where the server will listen. In my example, I found the port to be 38363.
 
 Using the terminal (Ubuntu or WSL):
 ```bash
